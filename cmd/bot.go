@@ -31,7 +31,6 @@ func main() {
 		fmt.Printf("User: %v joined Channel %v\n", je.User, je.Channel)
 	})
 	err := client.Connect(os.Args[1], os.Args[2])
-	client.JoinChannel("bsati")
 	if err != nil {
 		panic(err)
 	}
