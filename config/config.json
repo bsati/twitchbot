@@ -1,0 +1,12 @@
+{
+    "ConnectionStrings": {
+        "MySQL": "user:password@tcp(host:port)/db"
+    },
+    "Bot": {
+        "Commands": {
+            "Prefix": "!"
+        },
+        "OAuthToken": "",
+        "Nickname": ""
+    }
+}
